@@ -1,0 +1,74 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - heading "🎬 MoviePick" [level=1] [ref=e6] [cursor=pointer]
+      - paragraph [ref=e7]: React · TMDB · Supabase · Kakao · FastAPI · MySQL · MongoDB
+    - generic [ref=e8]:
+      - textbox "이메일" [ref=e9]
+      - textbox "비밀번호" [ref=e10]:
+        - /placeholder: 비밀번호 (6자 이상)
+      - button "로그인" [ref=e11] [cursor=pointer]
+      - button "회원가입" [ref=e12] [cursor=pointer]
+  - status [ref=e13]: 검색 완료
+  - generic [ref=e14]:
+    - heading "영화 찾기" [level=2] [ref=e15]
+    - generic [ref=e16]:
+      - 'textbox "예: 기생충, 인셉션" [active] [ref=e17]': 기생충
+      - button "검색" [ref=e18] [cursor=pointer]
+    - generic [ref=e37]:
+      - article [ref=e38]:
+        - img "기생충 포스터" [ref=e39]
+        - heading "기생충" [level=3] [ref=e40]
+        - paragraph [ref=e41]: ⭐ 8.5 · 2019-05-30
+        - generic [ref=e42]:
+          - button "상세" [ref=e43] [cursor=pointer]
+          - button "♡ 저장" [ref=e44] [cursor=pointer]
+      - article [ref=e45]:
+        - img "사랑하는 기생충 포스터" [ref=e46]
+        - heading "사랑하는 기생충" [level=3] [ref=e47]
+        - paragraph [ref=e48]: ⭐ 6.6 · 2021-11-12
+        - generic [ref=e49]:
+          - button "상세" [ref=e50] [cursor=pointer]
+          - button "♡ 저장" [ref=e51] [cursor=pointer]
+      - article [ref=e52]:
+        - img "기생충 Challenge 더블업 우주소녀 포스터" [ref=e53]
+        - heading "기생충 Challenge 더블업 우주소녀" [level=3] [ref=e54]
+        - paragraph [ref=e55]: ⭐ 10.0 · 2022-10-06
+        - generic [ref=e56]:
+          - button "상세" [ref=e57] [cursor=pointer]
+          - button "♡ 저장" [ref=e58] [cursor=pointer]
+      - article [ref=e59]:
+        - img "패러사이트 포스터" [ref=e60]
+        - heading "패러사이트" [level=3] [ref=e61]
+        - paragraph [ref=e62]: ⭐ 4.8 · 1982-03-12
+        - generic [ref=e63]:
+          - button "상세" [ref=e64] [cursor=pointer]
+          - button "♡ 저장" [ref=e65] [cursor=pointer]
+  - generic [ref=e19]:
+    - heading "내 즐겨찾기 (0)" [level=2] [ref=e20]
+    - paragraph [ref=e21]: 로그인하면 즐겨찾기를 저장할 수 있습니다.
+  - generic [ref=e22]:
+    - heading "영화관 찾기 (Kakao)" [level=2] [ref=e23]
+    - heading "지역명으로 검색" [level=3] [ref=e24]
+    - generic [ref=e25]:
+      - textbox "영화관 검색어" [ref=e26]:
+        - /placeholder: "예: 수원 영화관"
+        - text: 수원 영화관
+      - button "장소 검색" [ref=e27] [cursor=pointer]
+    - heading "📍 내 위치로 주변 영화관 찾기" [level=3] [ref=e28]
+    - generic [ref=e29]:
+      - generic [ref=e30]: 검색 반경
+      - combobox "검색 반경" [ref=e31]:
+        - option "1km"
+        - option "3km"
+        - option "5km" [selected]
+        - option "10km"
+        - option "20km"
+      - button "내 위치로 찾기" [ref=e32] [cursor=pointer]
+    - status
+  - generic [ref=e33]:
+    - heading "인기 영화 클릭 통계 (MySQL)" [level=2] [ref=e34]
+    - button "통계 새로고침" [ref=e35] [cursor=pointer]
+    - list
+    - text: MongoDB에는 각 검색·클릭 이벤트가 개별 문서로 저장됩니다.
+  - contentinfo [ref=e36]: Movie data provided by TMDB. This product uses the TMDB API but is not endorsed or certified by TMDB.

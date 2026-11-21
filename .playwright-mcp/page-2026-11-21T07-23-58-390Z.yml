@@ -1,0 +1,79 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - heading "🎬 MoviePick" [level=1] [ref=e6] [cursor=pointer]
+      - paragraph [ref=e7]: React · TMDB · Supabase · Kakao · FastAPI · MySQL · MongoDB
+    - generic [ref=e8]:
+      - textbox "이메일" [ref=e9]
+      - textbox "비밀번호" [ref=e10]:
+        - /placeholder: 비밀번호 (6자 이상)
+      - button "로그인" [ref=e11] [cursor=pointer]
+      - button "회원가입" [active] [ref=e12] [cursor=pointer]
+  - status [ref=e13]: Anonymous sign-ins are disabled
+  - generic [ref=e14]:
+    - heading "영화 찾기" [level=2] [ref=e15]
+    - generic [ref=e16]:
+      - 'textbox "예: 기생충, 인셉션" [ref=e17]': 기생충
+      - button "검색" [ref=e18] [cursor=pointer]
+    - generic [ref=e37]:
+      - article [ref=e38]:
+        - img "기생충 포스터" [ref=e39]
+        - heading "기생충" [level=3] [ref=e40]
+        - paragraph [ref=e41]: ⭐ 8.5 · 2019-05-30
+        - generic [ref=e42]:
+          - button "상세" [ref=e43] [cursor=pointer]
+          - button "♡ 저장" [ref=e44] [cursor=pointer]
+      - article [ref=e45]:
+        - img "사랑하는 기생충 포스터" [ref=e46]
+        - heading "사랑하는 기생충" [level=3] [ref=e47]
+        - paragraph [ref=e48]: ⭐ 6.6 · 2021-11-12
+        - generic [ref=e49]:
+          - button "상세" [ref=e50] [cursor=pointer]
+          - button "♡ 저장" [ref=e51] [cursor=pointer]
+      - article [ref=e52]:
+        - img "기생충 Challenge 더블업 우주소녀 포스터" [ref=e53]
+        - heading "기생충 Challenge 더블업 우주소녀" [level=3] [ref=e54]
+        - paragraph [ref=e55]: ⭐ 10.0 · 2022-10-06
+        - generic [ref=e56]:
+          - button "상세" [ref=e57] [cursor=pointer]
+          - button "♡ 저장" [ref=e58] [cursor=pointer]
+      - article [ref=e59]:
+        - img "패러사이트 포스터" [ref=e60]
+        - heading "패러사이트" [level=3] [ref=e61]
+        - paragraph [ref=e62]: ⭐ 4.8 · 1982-03-12
+        - generic [ref=e63]:
+          - button "상세" [ref=e64] [cursor=pointer]
+          - button "♡ 저장" [ref=e65] [cursor=pointer]
+  - generic [ref=e66]:
+    - heading "기생충" [level=2] [ref=e67]
+    - paragraph [ref=e68]: 가족 모두가 일자리를 구하지 못해 앞날이 막막한 기택의 집에, 장남 기우를 위한 고액 과외 제안이 들어온다. 명문대생 친구가 연결해 준 자리인 만큼, 기우에게는 오랜만에 찾아온 고정수입의 기회이자 가족의 기대를 짊어진 일이다. 온 가족의 도움을 받고 박 사장의 저택으로 향한 그는, 살던 곳과 전혀 다른 풍요롭고 정돈된 공간을 마주한다. 집주인의 아내 연교와 가정부 문광의 안내를 받은 기우는 딸 다혜의 수업을 시작하며 새로운 집안의 일상에 조심스레 들어간다. 과외가 순조롭게 진행되자 어렵게 열린 기회를 놓치고 싶지 않은 마음은 커지고, 두 가족의 생활은 조금씩 맞닿기 시작한다. 서로에게 필요한 것을 채워줄 듯한 이 만남은, 처음에는 보이지 않던 차이와 욕망을 드러내는데...
+    - paragraph [ref=e69]: "개봉일: 2019-05-30 / 평점: 8.5"
+    - button "상세 닫기" [ref=e70] [cursor=pointer]
+  - generic [ref=e19]:
+    - heading "내 즐겨찾기 (0)" [level=2] [ref=e20]
+    - paragraph [ref=e21]: 로그인하면 즐겨찾기를 저장할 수 있습니다.
+  - generic [ref=e22]:
+    - heading "영화관 찾기 (Kakao)" [level=2] [ref=e23]
+    - heading "지역명으로 검색" [level=3] [ref=e24]
+    - generic [ref=e25]:
+      - textbox "영화관 검색어" [ref=e26]:
+        - /placeholder: "예: 수원 영화관"
+        - text: 수원 영화관
+      - button "장소 검색" [ref=e27] [cursor=pointer]
+    - heading "📍 내 위치로 주변 영화관 찾기" [level=3] [ref=e28]
+    - generic [ref=e29]:
+      - generic [ref=e30]: 검색 반경
+      - combobox "검색 반경" [ref=e31]:
+        - option "1km"
+        - option "3km"
+        - option "5km" [selected]
+        - option "10km"
+        - option "20km"
+      - button "내 위치로 찾기" [ref=e32] [cursor=pointer]
+    - status
+  - generic [ref=e33]:
+    - heading "인기 영화 클릭 통계 (MySQL)" [level=2] [ref=e34]
+    - button "통계 새로고침" [ref=e35] [cursor=pointer]
+    - list
+    - text: MongoDB에는 각 검색·클릭 이벤트가 개별 문서로 저장됩니다.
+  - contentinfo [ref=e36]: Movie data provided by TMDB. This product uses the TMDB API but is not endorsed or certified by TMDB.

@@ -1,0 +1,8 @@
+[     220ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://moviepick-web.vercel.app/:1
+[     683ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://moviepick-web.vercel.app/favicon.ico:1
+[   37991ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://moviepick-api.onrender.com/events/click:1
+[   90798ms] [ERROR] Failed to load resource: the server responded with a status of 422 () @ https://bofqussbrzrgwqzvucas.supabase.co/auth/v1/signup:1
+[  107070ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://bofqussbrzrgwqzvucas.supabase.co/auth/v1/token?grant_type=password:1
+[  156337ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://moviepick-web.vercel.app/:1
+[  178504ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://moviepick-api.onrender.com/stats/popular:1
+[  193787ms] [ERROR] Failed to load resource: the server responded with a status of 503 () @ https://moviepick-api.onrender.com/events/click:1

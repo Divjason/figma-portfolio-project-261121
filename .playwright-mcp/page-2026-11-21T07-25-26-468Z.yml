@@ -1,0 +1,179 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - heading "🎬 MoviePick" [level=1] [ref=f1e6] [cursor=pointer]
+      - paragraph [ref=f1e7]: React · TMDB · Supabase · Kakao · FastAPI · MySQL · MongoDB
+    - generic [ref=f1e8]:
+      - textbox "이메일" [ref=f1e9]
+      - textbox "비밀번호" [ref=f1e10]:
+        - /placeholder: 비밀번호 (6자 이상)
+      - button "로그인" [ref=f1e11] [cursor=pointer]
+      - button "회원가입" [ref=f1e12] [cursor=pointer]
+  - status [ref=f1e13]: "MySQL 조회 실패: 2005 (HY000): Unknown MySQL server host 'mysql-35c1ab15-tcocs-f176.j.aivencloud.com' (-2)"
+  - generic [ref=f1e14]:
+    - heading "영화 찾기" [level=2] [ref=f1e15]
+    - generic [ref=f1e16]:
+      - 'textbox "예: 기생충, 인셉션" [ref=f1e17]'
+      - button "검색" [ref=f1e18] [cursor=pointer]
+    - generic [ref=f1e37]:
+      - article [ref=f1e38]:
+        - img "오디세이 포스터" [ref=f1e39]
+        - heading "오디세이" [level=3] [ref=f1e40]
+        - paragraph [ref=f1e41]: ⭐ 8.0 · 2026-07-15
+        - generic [ref=f1e42]:
+          - button "상세" [ref=f1e43] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e44] [cursor=pointer]
+      - article [ref=f1e45]:
+        - img "헝거게임 50번째 추첨의 날 포스터" [ref=f1e46]
+        - heading "헝거게임 50번째 추첨의 날" [level=3] [ref=f1e47]
+        - paragraph [ref=f1e48]: ⭐ 7.5 · 2026-11-18
+        - generic [ref=f1e49]:
+          - button "상세" [ref=f1e50] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e51] [cursor=pointer]
+      - article [ref=f1e52]:
+        - 'img "어벤져스: 둠스데이 포스터" [ref=f1e53]'
+        - 'heading "어벤져스: 둠스데이" [level=3] [ref=f1e54]'
+        - paragraph [ref=f1e55]: ⭐ 0.0 · 2026-12-16
+        - generic [ref=f1e56]:
+          - button "상세" [ref=f1e57] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e58] [cursor=pointer]
+      - article [ref=f1e59]:
+        - img "더 비스트 포스터" [ref=f1e60]
+        - heading "더 비스트" [level=3] [ref=f1e61]
+        - paragraph [ref=f1e62]: ⭐ 4.9 · 2026-10-08
+        - generic [ref=f1e63]:
+          - button "상세" [ref=f1e64] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e65] [cursor=pointer]
+      - article [ref=f1e66]:
+        - 'img "레지던트 이블: 0번째 밤 포스터" [ref=f1e67]'
+        - 'heading "레지던트 이블: 0번째 밤" [level=3] [ref=f1e68]'
+        - paragraph [ref=f1e69]: ⭐ 7.5 · 2026-09-16
+        - generic [ref=f1e70]:
+          - button "상세" [ref=f1e71] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e72] [cursor=pointer]
+      - article [ref=f1e73]:
+        - img "매든 포스터" [ref=f1e74]
+        - heading "매든" [level=3] [ref=f1e75]
+        - paragraph [ref=f1e76]: ⭐ 7.4 · 2026-11-18
+        - generic [ref=f1e77]:
+          - button "상세" [ref=f1e78] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e79] [cursor=pointer]
+      - article [ref=f1e80]:
+        - img "스타의 보디가드 포스터" [ref=f1e81]
+        - heading "스타의 보디가드" [level=3] [ref=f1e82]
+        - paragraph [ref=f1e83]: ⭐ 7.0 · 2026-11-18
+        - generic [ref=f1e84]:
+          - button "상세" [ref=f1e85] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e86] [cursor=pointer]
+      - article [ref=f1e87]:
+        - img "고질라 마이너스 제로 포스터" [ref=f1e88]
+        - heading "고질라 마이너스 제로" [level=3] [ref=f1e89]
+        - paragraph [ref=f1e90]: ⭐ 7.7 · 2026-11-03
+        - generic [ref=f1e91]:
+          - button "상세" [ref=f1e92] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e93] [cursor=pointer]
+      - article [ref=f1e94]:
+        - 'img "스파이더맨: 브랜드 뉴 데이 포스터" [ref=f1e95]'
+        - 'heading "스파이더맨: 브랜드 뉴 데이" [level=3] [ref=f1e96]'
+        - paragraph [ref=f1e97]: ⭐ 8.5 · 2026-07-29
+        - generic [ref=f1e98]:
+          - button "상세" [ref=f1e99] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e100] [cursor=pointer]
+      - article [ref=f1e101]:
+        - img "아더 마미 포스터" [ref=f1e102]
+        - heading "아더 마미" [level=3] [ref=f1e103]
+        - paragraph [ref=f1e104]: ⭐ 6.4 · 2026-10-07
+        - generic [ref=f1e105]:
+          - button "상세" [ref=f1e106] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e107] [cursor=pointer]
+      - article [ref=f1e108]:
+        - 'img "스크루지: 크리스마스 캐럴 포스터" [ref=f1e109]'
+        - 'heading "스크루지: 크리스마스 캐럴" [level=3] [ref=f1e110]'
+        - paragraph [ref=f1e111]: ⭐ 7.5 · 2026-11-11
+        - generic [ref=f1e112]:
+          - button "상세" [ref=f1e113] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e114] [cursor=pointer]
+      - article [ref=f1e115]:
+        - img "하트랜드 포스터" [ref=f1e116]
+        - heading "하트랜드" [level=3] [ref=f1e117]
+        - paragraph [ref=f1e118]: ⭐ 6.3 · 2026-11-13
+        - generic [ref=f1e119]:
+          - button "상세" [ref=f1e120] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e121] [cursor=pointer]
+      - article [ref=f1e122]:
+        - 'img "듄: 파트 3 포스터" [ref=f1e123]'
+        - 'heading "듄: 파트 3" [level=3] [ref=f1e124]'
+        - paragraph [ref=f1e125]: ⭐ 0.0 · 2026-12-15
+        - generic [ref=f1e126]:
+          - button "상세" [ref=f1e127] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e128] [cursor=pointer]
+      - article [ref=f1e129]:
+        - img "하트 오브 비스트 포스터" [ref=f1e130]
+        - heading "하트 오브 비스트" [level=3] [ref=f1e131]
+        - paragraph [ref=f1e132]: ⭐ 7.8 · 2026-09-19
+        - generic [ref=f1e133]:
+          - button "상세" [ref=f1e134] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e135] [cursor=pointer]
+      - article [ref=f1e136]:
+        - img "앨런 포스터" [ref=f1e137]
+        - heading "앨런" [level=3] [ref=f1e138]
+        - paragraph [ref=f1e139]: ⭐ 6.5 · 2026-11-12
+        - generic [ref=f1e140]:
+          - button "상세" [ref=f1e141] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e142] [cursor=pointer]
+      - article [ref=f1e143]:
+        - img "아이 플레이 록키 포스터" [ref=f1e144]
+        - heading "아이 플레이 록키" [level=3] [ref=f1e145]
+        - paragraph [ref=f1e146]: ⭐ 8.5 · 2026-11-06
+        - generic [ref=f1e147]:
+          - button "상세" [ref=f1e148] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e149] [cursor=pointer]
+      - article [ref=f1e150]:
+        - img "옵세션 포스터" [ref=f1e151]
+        - heading "옵세션" [level=3] [ref=f1e152]
+        - paragraph [ref=f1e153]: ⭐ 8.2 · 2026-05-13
+        - generic [ref=f1e154]:
+          - button "상세" [ref=f1e155] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e156] [cursor=pointer]
+      - article [ref=f1e157]:
+        - img "네버 서렌더 포스터" [ref=f1e158]
+        - heading "네버 서렌더" [level=3] [ref=f1e159]
+        - paragraph [ref=f1e160]: ⭐ 6.8 · 2026-11-11
+        - generic [ref=f1e161]:
+          - button "상세" [ref=f1e162] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e163] [cursor=pointer]
+      - article [ref=f1e164]:
+        - img "스트리트 파이터 포스터" [ref=f1e165]
+        - heading "스트리트 파이터" [level=3] [ref=f1e166]
+        - paragraph [ref=f1e167]: ⭐ 6.2 · 2026-10-13
+        - generic [ref=f1e168]:
+          - button "상세" [ref=f1e169] [cursor=pointer]
+          - button "♡ 저장" [ref=f1e170] [cursor=pointer]
+  - generic [ref=f1e19]:
+    - heading "내 즐겨찾기 (0)" [level=2] [ref=f1e20]
+    - paragraph [ref=f1e21]: 로그인하면 즐겨찾기를 저장할 수 있습니다.
+  - generic [ref=f1e22]:
+    - heading "영화관 찾기 (Kakao)" [level=2] [ref=f1e23]
+    - heading "지역명으로 검색" [level=3] [ref=f1e24]
+    - generic [ref=f1e25]:
+      - textbox "영화관 검색어" [ref=f1e26]:
+        - /placeholder: "예: 수원 영화관"
+        - text: 수원 영화관
+      - button "장소 검색" [ref=f1e27] [cursor=pointer]
+    - heading "📍 내 위치로 주변 영화관 찾기" [level=3] [ref=f1e28]
+    - generic [ref=f1e29]:
+      - generic [ref=f1e30]: 검색 반경
+      - combobox "검색 반경" [ref=f1e31]:
+        - option "1km"
+        - option "3km"
+        - option "5km" [selected]
+        - option "10km"
+        - option "20km"
+      - button "내 위치로 찾기" [ref=f1e32] [cursor=pointer]
+    - status
+  - generic [ref=f1e33]:
+    - heading "인기 영화 클릭 통계 (MySQL)" [level=2] [ref=f1e34]
+    - button "통계 새로고침" [active] [ref=f1e35] [cursor=pointer]
+    - list
+    - text: MongoDB에는 각 검색·클릭 이벤트가 개별 문서로 저장됩니다.
+  - contentinfo [ref=f1e36]: Movie data provided by TMDB. This product uses the TMDB API but is not endorsed or certified by TMDB.
